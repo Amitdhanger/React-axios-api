@@ -49,7 +49,7 @@ class Api extends React.Component{
                         <div className='user-comment' key ={Comment.id}>
                         <div className='name'>{Comment.name}</div>
                         <div className='e-mail'> {Comment.email}</div>
-                        <div className='comment'><h5>Comment :-</h5> {Comment.body}</div>
+                        <div className='comment'> {Comment.body}</div>
                         
                         </div>
                         )
